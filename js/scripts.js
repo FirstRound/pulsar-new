@@ -32,4 +32,27 @@ $(document).ready(function () {
             }
         ]
     });
+    
+    
+    
+    $(".timeline-period").click(function(){
+        $(".timeline-period").removeClass('active');
+        $(this).addClass('active');
+        
+        
+        if($(this).index()){
+            $('.body-sec-time-line .left-side').removeClass('active for-w-1');
+            $('.body-sec-time-line .right-side').addClass('active for-w-1');
+        }
+        else{
+            $('.body-sec-time-line .right-side').removeClass('active for-w-1');
+            $('.body-sec-time-line .left-side').addClass('active for-w-1');
+        }
+        
+    });
+    
+    
+    
+    
+    
 });

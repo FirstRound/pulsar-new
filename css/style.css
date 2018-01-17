@@ -23,6 +23,8 @@
     width: 70px;
     height: 3px;
     background: #286ed9; }
+  .advisors-head.for-padding {
+    margin-bottom: 35px; }
 
 .about-sec {
   background-image: url(../img/dots-1.jpg), url(../img/dots-2.jpg);
@@ -200,7 +202,8 @@
 .timeline .head-sec-time-line {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin-bottom: 70px; }
   .timeline .head-sec-time-line h3 {
     font-size: 72px;
     line-height: 72px;
@@ -226,10 +229,123 @@
     align-items: flex-end; }
     .timeline .head-sec-time-line .flex-tabs .timeline-period {
       font-size: 18px;
+      transition: 0.3s;
+      cursor: pointer;
       color: #a9a9a9;
       font-family: "BebasNeueReg"; }
       .timeline .head-sec-time-line .flex-tabs .timeline-period.active {
         font-size: 30px;
-        color: #000; }
+        color: #000;
+        line-height: 35px; }
+.timeline .body-sec-time-line {
+  display: flex;
+  align-items: flex-start;
+  position: relative; }
+  .timeline .body-sec-time-line:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 1px;
+    background: #ebebeb; }
+  .timeline .body-sec-time-line .side-width {
+    display: flex;
+    transition: 0.3s; }
+    .timeline .body-sec-time-line .side-width .one-time {
+      padding: 0 15px;
+      width: 50%;
+      transition: 0.3s;
+      position: relative; }
+      .timeline .body-sec-time-line .side-width .one-time .f {
+        color: #286ed9;
+        font-family: "BebasNeueReg";
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 180px; }
+      .timeline .body-sec-time-line .side-width .one-time .num {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid transparent;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        background: transparent;
+        padding: 30px;
+        display: flex;
+        transition: 0.3s; }
+        .timeline .body-sec-time-line .side-width .one-time .num .bordered {
+          position: relative;
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #000;
+          transition: 0.3s;
+          font-size: 18px;
+          line-height: 18px;
+          font-family: "BebasNeueReg";
+          border: 1px solid #ebebeb; }
+          .timeline .body-sec-time-line .side-width .one-time .num .bordered:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: transparent;
+            border: 1px solid transparent;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
+          .timeline .body-sec-time-line .side-width .one-time .num .bordered:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background: transparent;
+            border: 1px solid transparent;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
+      .timeline .body-sec-time-line .side-width .one-time .s {
+        color: #383838;
+        font-family: "Montserrat-Regular";
+        font-size: 16px;
+        opacity: 0; }
+    .timeline .body-sec-time-line .side-width.left-side {
+      width: 40%; }
+    .timeline .body-sec-time-line .side-width.mid-side {
+      flex-shrink: 0;
+      width: 25%; }
+      .timeline .body-sec-time-line .side-width.mid-side .one-time {
+        width: 100%; }
+    .timeline .body-sec-time-line .side-width.right-side {
+      width: 40%; }
+    .timeline .body-sec-time-line .side-width.active.for-w-1 {
+      width: 75%; }
+    .timeline .body-sec-time-line .side-width.active .one-time .num {
+      background: #fff;
+      border-color: #c9dbf5; }
+      .timeline .body-sec-time-line .side-width.active .one-time .num .bordered {
+        background: #286ed9;
+        border-color: transparent;
+        color: #fff; }
+        .timeline .body-sec-time-line .side-width.active .one-time .num .bordered:before {
+          border-color: #286ed9; }
+        .timeline .body-sec-time-line .side-width.active .one-time .num .bordered:after {
+          border-color: #89afea; }
+    .timeline .body-sec-time-line .side-width.active .one-time .s {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

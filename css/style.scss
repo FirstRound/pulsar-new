@@ -26,6 +26,9 @@
         height: 3px;
         background: #286ed9;
     }
+    &.for-padding {
+        margin-bottom: 35px;
+    }
 }
 
 .about-sec {
@@ -231,20 +234,21 @@
         text-align: center;
         margin-bottom: 35px;
         color: #fff;
-        
     }
-    p{
+    p {
         font-size: 18px;
         font-family: "Montserrat-Regular";
         color: #fff;
     }
 }
-.timeline{
-    .head-sec-time-line{
+
+.timeline {
+    .head-sec-time-line {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
-        h3{
+        margin-bottom: 70px;
+        h3 {
             font-size: 72px;
             line-height: 72px;
             color: #276cd6;
@@ -263,20 +267,162 @@
                 background: #286ed9;
             }
         }
-        .flex-tabs{
+        .flex-tabs {
             width: 100%;
             max-width: 330px;
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
-            .timeline-period{
-               font-size: 18px;
+            .timeline-period {
+                font-size: 18px;
+                transition: 0.3s;
+                cursor: pointer;
                 color: #a9a9a9;
                 font-family: "BebasNeueReg";
-                &.active{
+                &.active {
                     font-size: 30px;
                     color: #000;
+                    line-height: 35px;
                 }
+            }
+        }
+    }
+    .body-sec-time-line {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 128px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 85%;
+            height: 1px;
+            background: #ebebeb;
+        }
+        .side-width {
+            display: flex;
+            transition: 0.3s;
+            .one-time {
+                padding: 0 15px;
+                width: 50%;
+                transition: 0.3s;
+                position: relative;
+                .f {
+                    color: #286ed9;
+                    font-family: "BebasNeueReg";
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: bold;
+                    margin-bottom: 180px;
+                    
+                }
+                .num {
+                    position: absolute;
+                    top: 80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border: 1px solid transparent;
+                    width: 95px;
+                    height: 95px;
+                    border-radius: 50%;
+                    background: transparent;
+                    padding: 30px;
+                    display: flex;
+                    transition: 0.3s;
+                    .bordered {
+                        position: relative;
+                        border-radius: 50%;
+                        width: 100%;
+                        height: 100%;
+                        background: #fff;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #000;
+                        transition: 0.3s;
+                        font-size: 18px;
+                        line-height: 18px;
+                        font-family: "BebasNeueReg";
+                        border: 1px solid #ebebeb;
+                        &:before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            width: 55px;
+                            height: 55px;
+                            border-radius: 50%;
+                            background: transparent;
+                            border: 1px solid transparent;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                        &:after {
+                             content: "";
+                            display: block;
+                            position: absolute;
+                            width: 75px;
+                            height: 75px;
+                            border-radius: 50%;
+                            background: transparent;
+                            border: 1px solid transparent;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            
+                        }
+                    }
+                }
+                .s{
+                    color: #383838;
+                    font-family: "Montserrat-Regular";
+                    font-size: 16px;
+                    opacity: 0;
+                    
+                }
+            }
+            &.left-side {
+                width: 40%;
+                
+            }
+            &.mid-side {
+                flex-shrink: 0;
+                width: 25%;
+                .one-time {
+                    width: 100%;
+                }
+            }
+            &.right-side {
+                width: 40%;
+            }
+            &.active {
+                &.for-w-1{
+                    width: 75%;
+                }
+                .one-time {
+                    .num {
+                        background: #fff;
+                        border-color:#c9dbf5;
+                        .bordered {
+                             background: #286ed9;
+                          border-color: transparent;
+                            color: #fff;
+                            &:before {
+                                border-color:#286ed9;
+                            }
+                            &:after {
+                                border-color: #89afea;
+                            }
+                        }
+                    }
+                    .s{
+                        opacity: 1;
+                    }
+                }
+                
             }
         }
     }
