@@ -3,7 +3,25 @@
     margin: 0 auto;
 }
 
-
+.advisors-head{
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: "BebasNeueReg";
+    position: relative;
+    font-size: 48px;
+    color: #0c142b;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 100%;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 70px;
+        height: 3px;
+        background: #286ed9;
+    }
+}
 
 
 
@@ -112,25 +130,7 @@
     }
 }
 .advisors{
-    .advisors-head{
-        text-align: center;
-        margin-bottom: 75px;
-        font-family: "BebasNeueReg";
-        position: relative;
-        font-size: 48px;
-        color: #0c142b;
-        &:before{
-            content: "";
-            position: absolute;
-            top: 100%;
-            display: block;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 70px;
-            height: 3px;
-            background: #286ed9;
-        }
-    }
+    
     .for-padd{
         padding: 0 50px;
         position: relative;
