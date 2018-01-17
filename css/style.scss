@@ -233,3 +233,9 @@
     
 }
 
+.color-or{
+    color: #fd7400;
+    &:before{
+        color: #fd7400;
+    }
+}

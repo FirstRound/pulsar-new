@@ -183,4 +183,9 @@
 .who-should-a {
   padding-top: 250px; }
 
+.color-or {
+  color: #fd7400; }
+  .color-or:before {
+    color: #fd7400; }
+
 /*# sourceMappingURL=style.css.map */
