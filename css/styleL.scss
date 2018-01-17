@@ -26,3 +26,39 @@
     font-style: normal;
     font-weight: normal;
 }
+.startups{
+    width: 100%;
+    background-image: url(../img/g.png);
+    background-repeat: no-repeat;
+    background-position: top right 0;
+    padding-top: 200px;
+        .flex-one{
+            display: flex;
+            flex-wrap: wrap;
+            .block-two{
+                width: 25%;
+                padding: 5px 10px 0px 0px;
+                .pic4a{
+                    float: left;
+                    margin: 5px 40px 0px 0px;
+                }
+                h4{
+                    font-family: "BebasNeueReg";
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    color: #0c142b;
+                }
+                span{
+                    font-family: "BebasNeueReg";
+                    font-size: 18px;
+                    color: #0c142b;
+                }
+                p{
+                    padding-top: 20px;
+                    font-size: 16px;
+                    color: #a5a5a5;
+                    font-family: "Montserrat-Regular";
+                }
+            }
+        }
+}

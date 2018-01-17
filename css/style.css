@@ -2,6 +2,28 @@
   max-width: 825px;
   margin: 0 auto; }
 
+.max-w-770 {
+  max-width: 770px;
+  margin: 0 auto; }
+
+.advisors-head {
+  text-align: center;
+  margin-bottom: 75px;
+  font-family: "BebasNeueReg";
+  position: relative;
+  font-size: 48px;
+  color: #0c142b; }
+  .advisors-head:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: #286ed9; }
+
 .about-sec {
   background-image: url(../img/dots-1.jpg), url(../img/dots-2.jpg);
   background-repeat: no-repeat;
@@ -85,23 +107,6 @@
       .about-sec .about .sl-2 .slick-arrow.slick-next {
         right: -50px; }
 
-.advisors .advisors-head {
-  text-align: center;
-  margin-bottom: 75px;
-  font-family: "BebasNeueReg";
-  position: relative;
-  font-size: 48px;
-  color: #0c142b; }
-  .advisors .advisors-head:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    display: block;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70px;
-    height: 3px;
-    background: #286ed9; }
 .advisors .for-padd {
   padding: 0 50px;
   position: relative; }
@@ -172,5 +177,8 @@
       .advisors .for-padd .slider-advisors .slick-arrow.slick-next:before {
         position: relative;
         left: 1px; }
+
+.who-should-a {
+  padding-top: 250px; }
 
 /*# sourceMappingURL=style.css.map */

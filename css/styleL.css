@@ -19,5 +19,34 @@
   src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+.startups {
+  width: 100%;
+  background-image: url(../img/g.png);
+  background-repeat: no-repeat;
+  background-position: top right 0;
+  padding-top: 200px; }
+  .startups .flex-one {
+    display: flex;
+    flex-wrap: wrap; }
+    .startups .flex-one .block-two {
+      width: 25%;
+      padding: 5px 10px 0px 0px; }
+      .startups .flex-one .block-two .pic4a {
+        float: left;
+        margin: 5px 40px 0px 0px; }
+      .startups .flex-one .block-two h4 {
+        font-family: "BebasNeueReg";
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #0c142b; }
+      .startups .flex-one .block-two span {
+        font-family: "BebasNeueReg";
+        font-size: 18px;
+        color: #0c142b; }
+      .startups .flex-one .block-two p {
+        padding-top: 20px;
+        font-size: 16px;
+        color: #a5a5a5;
+        font-family: "Montserrat-Regular"; }
 
 /*# sourceMappingURL=styleL.css.map */
