@@ -70,6 +70,15 @@
             }
         }
 }
+.timeline{
+    span{
+        display: block;
+        font-family: "BebasNeueReg";
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 145px;
+    }
+}
 .matching{
     .m-w-500{
         max-width: 500px;
@@ -123,4 +132,22 @@
     }
 
 }
-    
+.m-w-1280{
+    max-width: 1280px;
+
+    .m-w-33{
+        width: 33%;
+        padding: 7px;
+        h4{
+            font-family: "BebasNeueReg";
+            font-size: 24px;
+            color: #0c142b;
+            padding-bottom: 35px;
+        }
+        li{
+            font-family: "Montserrat-ExtraLight";
+            color: #0c142b;
+            font-size: 16px;
+        }
+    }
+}
