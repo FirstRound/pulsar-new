@@ -52,7 +52,20 @@ $(document).ready(function () {
     });
     
     
-    
+       $('.new-slider-3').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        infinite: false,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    }); 
     
     
 });

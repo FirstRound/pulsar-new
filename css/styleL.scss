@@ -70,7 +70,7 @@
             }
         }
 }
-.timeline{
+.ACCELERATOR{
     span{
         display: block;
         font-family: "BebasNeueReg";
@@ -138,6 +138,7 @@
     .m-w-33{
         width: 33%;
         padding: 7px;
+        border-right: solid 2px #e1e1e1;
         h4{
             font-family: "BebasNeueReg";
             font-size: 24px;
@@ -150,4 +151,34 @@
             font-size: 16px;
         }
     }
+
+                .slick-arrow {
+                display: block;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                outline: none;
+                background-image: url(../img/arr-right.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 36px;
+                height: 36px;
+                background-color: transparent;
+                border: none;
+                font-size: 0;
+                background-size: 22px;
+                transition: 0.3s;
+                cursor: pointer;
+                &.slick-disabled {
+                    opacity: 0;
+                }
+                &.slick-prev {
+                    transform-origin: center;
+                    transform: rotate(180deg);
+                    left: -50px;
+                }
+                &.slick-next {
+                    right: -50px;
+                }
+            }
 }
