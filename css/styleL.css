@@ -54,7 +54,7 @@
         color: #a5a5a5;
         font-family: "Montserrat-Regular"; }
 
-.timeline span {
+.ACCELERATOR span {
   display: block;
   font-family: "BebasNeueReg";
   font-size: 18px;
@@ -107,7 +107,8 @@
   max-width: 1280px; }
   .m-w-1280 .m-w-33 {
     width: 33%;
-    padding: 7px; }
+    padding: 7px;
+    border-right: solid 2px #e1e1e1; }
     .m-w-1280 .m-w-33 h4 {
       font-family: "BebasNeueReg";
       font-size: 24px;
@@ -117,5 +118,30 @@
       font-family: "Montserrat-ExtraLight";
       color: #0c142b;
       font-size: 16px; }
+  .m-w-1280 .slick-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    background-image: url(../img/arr-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    background-size: 22px;
+    transition: 0.3s;
+    cursor: pointer; }
+    .m-w-1280 .slick-arrow.slick-disabled {
+      opacity: 0; }
+    .m-w-1280 .slick-arrow.slick-prev {
+      transform-origin: center;
+      transform: rotate(180deg);
+      left: -50px; }
+    .m-w-1280 .slick-arrow.slick-next {
+      right: -50px; }
 
 /*# sourceMappingURL=styleL.css.map */
