@@ -1,20 +1,88 @@
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url("../fonts/Montserrat-Regular.eot");
-  src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
-  font-family: "Montserrat-Light";
-  src: url("../fonts/Montserrat-Light.eot");
-  src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
-  font-family: "Montserrat-ExtraLight";
-  src: url("../fonts/Montserrat-ExtraLight.eot");
-  src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
+.max-w-825 {
+  max-width: 825px;
+  margin: 0 auto; }
+
+.about-sec {
+  background-image: url(../img/dots-1.jpg), url(../img/dots-2.jpg);
+  background-repeat: no-repeat;
+  background-position: top left,top right; }
+  .about-sec .about {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    overflow: hidden; }
+    .about-sec .about .sl-1 {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between; }
+      .about-sec .about .sl-1 .slide {
+        outline: none;
+        font-family: "BebasNeueReg";
+        font-size: 38px;
+        letter-spacing: 0.3px;
+        color: #d1d1d1;
+        text-transform: uppercase;
+        transition: 0.3s;
+        min-height: 84px;
+        display: flex;
+        align-items: flex-end;
+        line-height: 42px;
+        cursor: pointer; }
+        .about-sec .about .sl-1 .slide.left-style {
+          text-align: right;
+          justify-content: flex-end; }
+        .about-sec .about .sl-1 .slide.active {
+          font-size: 56px;
+          line-height: 56px;
+          color: #000; }
+    .about-sec .about .stick {
+      width: 335px;
+      background: #b8b8b8;
+      margin-bottom: 10px; }
+      .about-sec .about .stick:before {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 3px;
+        background: #286ed9; }
+    .about-sec .about .sl-2 .slide {
+      outline: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 330px; }
+      .about-sec .about .sl-2 .slide p {
+        font-size: 20px;
+        font-family: "Montserrat-ExtraLight";
+        line-height: 1.5;
+        letter-spacing: 0.2px;
+        margin-bottom: 15px; }
+        .about-sec .about .sl-2 .slide p:last-child {
+          margin-bottom: 0; }
+    .about-sec .about .sl-2 .slick-arrow {
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      outline: none;
+      background-image: url(../img/arr-right.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 36px;
+      height: 36px;
+      background-color: transparent;
+      border: none;
+      font-size: 0;
+      background-size: 22px;
+      transition: 0.3s;
+      cursor: pointer; }
+      .about-sec .about .sl-2 .slick-arrow.slick-disabled {
+        opacity: 0; }
+      .about-sec .about .sl-2 .slick-arrow.slick-prev {
+        transform-origin: center;
+        transform: rotate(180deg);
+        left: -50px; }
+      .about-sec .about .sl-2 .slick-arrow.slick-next {
+        right: -50px; }
 
 /*# sourceMappingURL=style.css.map */
