@@ -27,7 +27,6 @@
     font-weight: normal;
 }
 .startups{
-    width: 100%;
     background-image: url(../img/g.png);
     background-repeat: no-repeat;
     background-position: top right 0;
@@ -38,8 +37,13 @@
             .block-two{
                 width: 25%;
                 padding: 5px 10px 0px 0px;
-                .pic4a{
-                    float: left;
+                .block-one{
+                    display: flex;
+                    img{
+                        flex-shrink:0;
+                    }
+                }
+                .img-responsive{
                     margin: 5px 40px 0px 0px;
                 }
                 h4{
@@ -61,4 +65,12 @@
                 }
             }
         }
+}
+.Community{
+    p{
+        font-family: "Montserrat-ExtraLight";
+        font-size: 18px;
+        color: #0c142b;
+        text-align: center;
+    }
 }

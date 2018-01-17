@@ -23,6 +23,8 @@
     width: 70px;
     height: 3px;
     background: #286ed9; }
+  .advisors-head.for-padding {
+    margin-bottom: 35px; }
 
 .about-sec {
   background-image: url(../img/dots-1.jpg), url(../img/dots-2.jpg);

@@ -20,7 +20,6 @@
   font-style: normal;
   font-weight: normal; }
 .startups {
-  width: 100%;
   background-image: url(../img/g.png);
   background-repeat: no-repeat;
   background-position: top right 0;
@@ -31,8 +30,11 @@
     .startups .flex-one .block-two {
       width: 25%;
       padding: 5px 10px 0px 0px; }
-      .startups .flex-one .block-two .pic4a {
-        float: left;
+      .startups .flex-one .block-two .block-one {
+        display: flex; }
+        .startups .flex-one .block-two .block-one img {
+          flex-shrink: 0; }
+      .startups .flex-one .block-two .img-responsive {
         margin: 5px 40px 0px 0px; }
       .startups .flex-one .block-two h4 {
         font-family: "BebasNeueReg";
@@ -48,5 +50,11 @@
         font-size: 16px;
         color: #a5a5a5;
         font-family: "Montserrat-Regular"; }
+
+.Community p {
+  font-family: "Montserrat-ExtraLight";
+  font-size: 18px;
+  color: #0c142b;
+  text-align: center; }
 
 /*# sourceMappingURL=styleL.css.map */
