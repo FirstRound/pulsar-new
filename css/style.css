@@ -324,7 +324,9 @@
         color: #383838;
         font-family: "Montserrat-Regular";
         font-size: 16px;
-        opacity: 0; }
+        opacity: 0;
+        transition: 0.5s;
+        min-height: 300px; }
     .timeline .body-sec-time-line .side-width.left-side {
       width: 40%; }
     .timeline .body-sec-time-line .side-width.mid-side {
