@@ -85,4 +85,92 @@
       .about-sec .about .sl-2 .slick-arrow.slick-next {
         right: -50px; }
 
+.advisors .advisors-head {
+  text-align: center;
+  margin-bottom: 75px;
+  font-family: "BebasNeueReg";
+  position: relative;
+  font-size: 48px;
+  color: #0c142b; }
+  .advisors .advisors-head:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background: #286ed9; }
+.advisors .for-padd {
+  padding: 0 50px;
+  position: relative; }
+  .advisors .for-padd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 58px;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background: #eeeeee; }
+  .advisors .for-padd .slider-advisors .one-slide {
+    outline: none;
+    padding: 0 15px; }
+    .advisors .for-padd .slider-advisors .one-slide .ava {
+      width: 115px;
+      height: 115px;
+      border: 6px solid #e7e7e7;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto 18px auto; }
+    .advisors .for-padd .slider-advisors .one-slide p {
+      font-size: 14px;
+      color: #595d68;
+      text-align: center;
+      font-family: "Montserrat-Regular"; }
+      .advisors .for-padd .slider-advisors .one-slide p.name {
+        font-weight: bold;
+        font-family: "BebasNeueReg";
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 9px;
+        color: #000; }
+  .advisors .for-padd .slider-advisors .slick-arrow {
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #eeeeee;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    outline: none; }
+    .advisors .for-padd .slider-advisors .slick-arrow:before {
+      content: "";
+      display: block;
+      background-image: url(../img/arr-right-2.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 14px;
+      height: 14px;
+      width: 14px; }
+    .advisors .for-padd .slider-advisors .slick-arrow.slick-disabled:before {
+      opacity: 0.5; }
+    .advisors .for-padd .slider-advisors .slick-arrow.slick-prev {
+      right: calc(100% + 12px);
+      transform-origin: center;
+      transform: rotate(180deg); }
+    .advisors .for-padd .slider-advisors .slick-arrow.slick-next {
+      left: calc(100% + 12px); }
+      .advisors .for-padd .slider-advisors .slick-arrow.slick-next:before {
+        position: relative;
+        left: 1px; }
+
 /*# sourceMappingURL=style.css.map */
