@@ -27,7 +27,7 @@
 .about-sec {
   background-image: url(../img/dots-1.jpg), url(../img/dots-2.jpg);
   background-repeat: no-repeat;
-  background-position: top left,top right; }
+  background-position: top left, top right; }
   .about-sec .about {
     padding-top: 60px;
     padding-bottom: 50px;
@@ -179,6 +179,57 @@
         left: 1px; }
 
 .who-should-a {
-  padding-top: 250px; }
+  margin-top: -150px;
+  padding-top: 430px;
+  padding-bottom: 50px;
+  background-image: url(../img/hard-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1408px; }
+  .who-should-a h5 {
+    font-size: 72px;
+    font-family: "BebasNeueReg";
+    text-align: center;
+    margin-bottom: 35px;
+    color: #fff; }
+  .who-should-a p {
+    font-size: 18px;
+    font-family: "Montserrat-Regular";
+    color: #fff; }
+
+.timeline .head-sec-time-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; }
+  .timeline .head-sec-time-line h3 {
+    font-size: 72px;
+    line-height: 72px;
+    color: #276cd6;
+    font-family: "BebasNeueReg";
+    letter-spacing: 2px;
+    position: relative; }
+    .timeline .head-sec-time-line h3:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      display: block;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70px;
+      height: 3px;
+      background: #286ed9; }
+  .timeline .head-sec-time-line .flex-tabs {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .timeline .head-sec-time-line .flex-tabs .timeline-period {
+      font-size: 18px;
+      color: #a9a9a9;
+      font-family: "BebasNeueReg"; }
+      .timeline .head-sec-time-line .flex-tabs .timeline-period.active {
+        font-size: 30px;
+        color: #000; }
 
 /*# sourceMappingURL=style.css.map */
