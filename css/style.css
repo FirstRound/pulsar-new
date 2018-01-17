@@ -325,8 +325,7 @@
         font-family: "Montserrat-Regular";
         font-size: 16px;
         opacity: 0;
-        transition: 0.5s;
-        min-height: 300px; }
+        min-height: 160px; }
     .timeline .body-sec-time-line .side-width.left-side {
       width: 40%; }
     .timeline .body-sec-time-line .side-width.mid-side {
@@ -350,6 +349,7 @@
         .timeline .body-sec-time-line .side-width.active .one-time .num .bordered:after {
           border-color: #89afea; }
     .timeline .body-sec-time-line .side-width.active .one-time .s {
-      opacity: 1; }
+      opacity: 1;
+      transition: 0.5s; }
 
 /*# sourceMappingURL=style.css.map */

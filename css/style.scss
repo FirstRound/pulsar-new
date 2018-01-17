@@ -385,8 +385,7 @@
                     font-family: "Montserrat-Regular";
                     font-size: 16px;
                     opacity: 0;
-                    transition: 0.5s;
-                    min-height: 300px;
+                    min-height: 160px;
                 }
             }
             &.left-side {
@@ -425,6 +424,7 @@
                     }
                     .s{
                         opacity: 1;
+                        transition: 0.5s;
                     }
                 }
                 
