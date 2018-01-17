@@ -39,6 +39,7 @@
                 padding: 5px 10px 0px 0px;
                 .block-one{
                     display: flex;
+                    align-items: flex-start;
                     img{
                         flex-shrink:0;
                     }
@@ -57,6 +58,9 @@
                     font-size: 18px;
                     color: #0c142b;
                 }
+                .padding-one{
+                    padding-top: 30px;
+                }
                 p{
                     padding-top: 20px;
                     font-size: 16px;
@@ -66,11 +70,57 @@
             }
         }
 }
+.matching{
+    .m-w-500{
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        padding-bottom: 190px;
+    }
+        .padd{
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .color-or{
+            color: #fd7400;
+            margin-bottom: 5px;
+            font-family: "BebasNeueReg";
+            position: relative;
+            font-size: 36px;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: 100%;
+                    display: block;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 70px;
+                    height: 3px;
+                    background: #fd7400;
+    }
+    p{
+        font-family: "Montserrat-ExtraLight";
+        font-size: 16px;
+        color: #0c142b;   
+    }
+}
+    }
+    
+}
 .Community{
+    .m-w-825{
+        max-width: 825px;
+        display: block;
+        margin: 0 auto;
+}
     p{
         font-family: "Montserrat-ExtraLight";
         font-size: 18px;
         color: #0c142b;
         text-align: center;
     }
+
 }
+    
