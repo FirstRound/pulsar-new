@@ -829,7 +829,7 @@
       letter-spacing: 1px;
       color: #fff;
       margin-bottom: 1.8rem;
-      border: 1px solid #1ab797; }
+      border: 1px solid rgba(255, 255, 255, 0.3); }
     .footer .for-flex-footer form button {
       display: block;
       visibility: hidden; }
