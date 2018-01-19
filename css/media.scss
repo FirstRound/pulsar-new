@@ -72,6 +72,9 @@
     .m-w-1280 {
         max-width: 1199px;
     }
+    .about-sec{
+            background-position: top left -185px, top right -185px;
+    }
 }
 
 @media (max-width: 1320px) {
@@ -95,6 +98,9 @@
     }
     .counter-sec .for-hard-bg-2 .wrapp-forcounter {
         top: 608px;
+    }
+    .counter-sec .for-bg-new-img:before{
+        left: -280px;
     }
 }
 
@@ -350,6 +356,15 @@
     }
     .footer .for-flex-footer .soc-set-links a {
         padding-right: 35px;
+    }
+    .counter-sec .for-bg-new-img:before{
+        display: none;
+    }
+    .ACCELERATOR:before{
+        display: none;
+    }
+    .startups:before{
+        display: none;
     }
 }
 

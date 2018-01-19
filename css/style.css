@@ -479,7 +479,8 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    position: relative; }
+    position: relative;
+    z-index: 10; }
     .timeline .body-sec-time-line:before {
       content: "";
       display: block;
@@ -620,6 +621,18 @@
 
 .counter-sec {
   padding-top: 150px; }
+  .counter-sec .for-bg-new-img {
+    position: relative; }
+    .counter-sec .for-bg-new-img:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 100px;
+      width: 688px;
+      height: 489px;
+      background-image: url(../img/1-2.jpg);
+      background-repeat: no-repeat; }
   .counter-sec .head-counter-sec {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -840,7 +853,7 @@
     color: #fff; }
 
 .Community {
-  background-image: url(../img/HARD-BG-4.png);
+  background-image: url(../img/hard-bg-5.png);
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-top: 138px;
@@ -853,5 +866,8 @@
   margin: 0 auto;
   position: relative;
   padding-bottom: 65px; }
+
+.counter-sec .head-counter-sec:before {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

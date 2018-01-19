@@ -474,6 +474,7 @@
         display: flex;
         align-items: flex-start;
         position: relative;
+        z-index: 10;
         &:before {
             content: "";
             display: block;
@@ -621,6 +622,20 @@
 
 .counter-sec {
     padding-top: 150px;
+    .for-bg-new-img{
+        position: relative;
+        &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 100px;
+            width: 688px;
+            height: 489px;
+            background-image: url(../img/1-2.jpg);
+            background-repeat: no-repeat;
+        }
+    }
     .head-counter-sec {
         display: flex;
         position: relative;
@@ -853,7 +868,7 @@
 }
 
 .Community {
-    background-image: url(../img/HARD-BG-4.png);
+    background-image: url(../img/hard-bg-5.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     padding-top: 138px;
@@ -867,4 +882,7 @@
     margin: 0 auto;
     position: relative;
     padding-bottom: 65px;
+}
+.counter-sec .head-counter-sec:before{
+    display: none;
 }
