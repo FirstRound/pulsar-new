@@ -122,6 +122,8 @@
       -webkit-transition: 0.3s;
       transition: 0.3s;
       color: #fff; }
+      .menu ul li a.active {
+        color: #266ad2; }
 
 .fixed-menu {
   position: fixed;
@@ -182,6 +184,8 @@
           -webkit-transition: 0.3s;
           transition: 0.3s; }
           .fixed-menu .menu .side.mid-side ul li a:hover {
+            color: #266ad2; }
+          .fixed-menu .menu .side.mid-side ul li a.active {
             color: #266ad2; }
 
 .timeline-period-small {
@@ -263,7 +267,7 @@
       .about-sec .about .stick:before {
         content: "";
         display: block;
-        width: 50%;
+        width: 100%;
         height: 3px;
         background: #286ed9; }
     .about-sec .about .sl-2 .slide {
@@ -403,7 +407,7 @@
   margin-top: -150px;
   padding-top: 430px;
   padding-bottom: 50px;
-  background-image: url(../img/hard-bg-1.jpg);
+  background-image: url(../img/hard-bg-1-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 1408px; }

@@ -51,9 +51,11 @@
         width: 203px;
     }
 }
-
-
-
+@media (max-width: 1700px) {
+    .counter-sec .for-bg-new-img:before{
+        top: 180px;
+    }
+}
 @media (max-width: 1500px) {
     .fixed-menu .menu .side.mid-side {
         max-width: 850px;
@@ -101,6 +103,9 @@
     }
     .counter-sec .for-bg-new-img:before{
         left: -280px;
+    }
+    .about-sec {
+        background-position: top left -266px, top right -185px;
     }
 }
 

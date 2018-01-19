@@ -113,6 +113,9 @@
                 text-transform: uppercase;
                 transition: 0.3s;
                 color: #fff;
+                &.active {
+                    color: #266ad2;
+                }
             }
         }
     }
@@ -125,7 +128,7 @@
     left: 0;
     width: 100%;
     z-index: 200;
-    &.js-fixed{
+    &.js-fixed {
         top: 0;
     }
     .menu {
@@ -163,12 +166,15 @@
                 width: 100%;
                 max-width: 1170px;
                 flex-shrink: 0;
-                ul{
-                    li{
-                        a{
+                ul {
+                    li {
+                        a {
                             color: #595d68;
                             transition: 0.3s;
-                            &:hover{
+                            &:hover {
+                                color: #266ad2;
+                            }
+                            &.active {
                                 color: #266ad2;
                             }
                         }
@@ -256,7 +262,7 @@
             &:before {
                 content: "";
                 display: block;
-                width: 50%;
+                width: 100%;
                 height: 3px;
                 background: #286ed9;
             }
@@ -406,7 +412,7 @@
     margin-top: -150px;
     padding-top: 430px;
     padding-bottom: 50px;
-    background-image: url(../img/hard-bg-1.jpg);
+    background-image: url(../img/hard-bg-1-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 1408px;
@@ -622,9 +628,9 @@
 
 .counter-sec {
     padding-top: 150px;
-    .for-bg-new-img{
+    .for-bg-new-img {
         position: relative;
-        &:before{
+        &:before {
             content: "";
             display: block;
             position: absolute;
@@ -851,7 +857,7 @@
                 letter-spacing: 1px;
                 color: #fff;
                 margin-bottom: 1.8rem;
-                    border: 1px solid rgba(255,255,255,0.3);
+                border: 1px solid rgba(255, 255, 255, 0.3);
             }
             button {
                 display: block;
@@ -883,6 +889,7 @@
     position: relative;
     padding-bottom: 65px;
 }
-.counter-sec .head-counter-sec:before{
+
+.counter-sec .head-counter-sec:before {
     display: none;
 }
