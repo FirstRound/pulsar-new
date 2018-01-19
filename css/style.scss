@@ -893,3 +893,112 @@
 .counter-sec .head-counter-sec:before {
     display: none;
 }
+.for-flag{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 500;
+    font-family: "BebasNeueReg";
+    letter-spacing: 1px;
+    .dropdown-wrch{
+        display: none;
+        
+    }
+    .flag-vr{
+        padding-left: 22px;
+        padding-right: 15px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 18px;
+            height: 12px;
+            background: url(../img/en.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 9px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 5px 5px 0 5px;
+            border-color: #276dd6 transparent transparent transparent;
+        }
+    }
+    .pick-lang{
+        position: absolute;
+        right: 0;
+        border: 1px solid #276cd6;
+        background: white;
+        z-index: 20;
+        bottom: 100%;
+        a {
+            color: black;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            display: block;
+            padding: 2px 16px;
+            font-size: 16px;
+        }
+    }
+}
+
+.max-w-770{
+     opacity: 0;
+    transform: scale(0.5);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.advisors{
+    opacity: 0;
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.flex-one{
+    .block-two{
+        opacity: 0;
+        transform: translateY(40px);
+        transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+        &:nth-child(1){
+            transition-delay: .15s,.3s;
+        }
+        &:nth-child(2){
+            transition-delay: .25s,.4s;
+        }
+        &:nth-child(3){
+            transition-delay: .35s,.5s;
+        }
+        &:nth-child(4){
+            transition-delay: .45s,.6s;
+        }
+    }
+    &[data-anim=true] {
+         .block-two{
+            opacity: 1;
+            transform: none;
+         }
+    }
+}
+.new-slider-3{
+    opacity: 0;
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+     &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}

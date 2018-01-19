@@ -371,6 +371,13 @@
     .startups:before{
         display: none;
     }
+    .timeline .body-sec-time-line .side-width.left-side{
+        width: 66.66%;
+    }
+    
+    
+    
+    
 }
 
 @media (max-width: 767px) {
@@ -570,5 +577,9 @@
     .menu ul{
          padding: 15px 15px 0 15px;
     }
-    
+    .for-flag{
+        bottom: 6px;
+        right: 5px;
+    }
 }
+
