@@ -875,10 +875,9 @@
   display: none; }
 
 .for-flag {
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  z-index: 500;
+  width: 50px;
+  position: relative;
+  color: #fff;
   font-family: "BebasNeueReg";
   letter-spacing: 1px; }
   .for-flag .dropdown-wrch {
@@ -907,16 +906,15 @@
       height: 0;
       border-style: solid;
       border-width: 5px 5px 0 5px;
-      border-color: #276dd6 transparent transparent transparent; }
+      border-color: #fff transparent transparent transparent; }
   .for-flag .pick-lang {
     position: absolute;
-    right: 0;
-    border: 1px solid #276cd6;
-    background: white;
+    left: 0;
+    border: 1px solid #ffffff;
     z-index: 20;
-    bottom: 100%; }
+    top: 100%; }
     .for-flag .pick-lang a {
-      color: black;
+      color: #fff;
       -webkit-transition: 0.3s;
       transition: 0.3s;
       display: block;
@@ -982,5 +980,10 @@
     opacity: 1;
     -webkit-transform: none;
             transform: none; }
+
+.who-should-a .butt-apply {
+  bottom: 0;
+  position: relative;
+  margin: 40px auto 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -55,6 +55,9 @@
 @media (max-width: 1700px) {
   .counter-sec .for-bg-new-img:before {
     top: 180px; } }
+@media (max-width: 1550px) {
+  .about-sec {
+    background-position: top left -185px, top right -185px; } }
 @media (max-width: 1500px) {
   .fixed-menu .menu .side.mid-side {
     max-width: 850px; }
@@ -153,6 +156,9 @@
     transform: rotate(-56deg);
     width: 211px; } }
 @media (max-width: 991px) {
+  .who-should-a .butt-apply {
+    background: #286ed8; }
+
   .fixed-menu .menu .side.mid-side {
     max-width: 600px; }
 
