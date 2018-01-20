@@ -7,10 +7,13 @@
   margin: 0 auto; }
 
 .sec-lvl-1 {
-  background: #000;
+  background-color: #000;
   position: relative;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url(../img/bg-movie.png);
+  background-size: cover;
+  background-position: center; }
   .sec-lvl-1:before {
     content: "";
     display: block;
