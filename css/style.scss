@@ -1012,3 +1012,101 @@
         margin: 40px auto 0 auto;
     }
 }
+
+.timeline .head-sec-time-line{
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.timeline .body-sec-time-line{
+     opacity: 0;
+    transform: translateY(70px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.advisors-head.for-padding{
+    opacity: 0;
+    transform: translateX(-70px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.Community p{
+     opacity: 0;
+    transform: translateX(70px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.counter-sec .for-hard-bg-2 .wrapp-forcounter{
+    .one-counter{
+        opacity: 0;
+        transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+        &:before{
+            opacity: 0;
+            transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+        }
+        &:nth-child(1){
+            transition-delay: .15s,.3s;
+            &:before{
+                transition-delay: .65s,.8s;
+            }
+        }
+        &:nth-child(2){
+            transition-delay: .25s,.4s;
+            &:before{
+                transition-delay: .75s,.9s;
+            }
+        }
+        &:nth-child(3){
+            transition-delay: .35s,.5s;
+            &:before{
+                transition-delay: .85s,1s;
+            }
+        }
+        &:nth-child(4){
+            transition-delay: .45s,.6s;
+        }
+    }
+    
+    
+    
+    &[data-anim=true] {
+        .one-counter{
+            opacity: 1;
+            &:before{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.counter-sec .head-counter-sec div h4{
+     opacity: 0;
+    transform: translateX(-50px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}
+.counter-sec .head-counter-sec div p{
+    opacity: 0;
+    transform: translateX(50px);
+    transition: transform .75s cubic-bezier(.39, .575, .565, 1), opacity .5s linear;
+    &[data-anim=true] {
+        opacity: 1;
+        transform: none;
+    }
+}

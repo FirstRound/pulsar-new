@@ -135,7 +135,7 @@ $(document).ready(function () {
     var scrFunc = function () {
         var t = win.scrollTop(),
             e = win.height();
-        $("[data-anim], .max-w-770, .advisors, .flex-one, .new-slider-3").each(function (n, i) {
+        $("[data-anim], .max-w-770, .advisors, .flex-one, .new-slider-3,.timeline .head-sec-time-line,.timeline .body-sec-time-line, .advisors-head.for-padding, .Community p,.counter-sec .for-hard-bg-2 .wrapp-forcounter,.counter-sec .head-counter-sec div h4,.counter-sec .head-counter-sec div p").each(function (n, i) {
             var r = $(i).offset().top,
                 s = t + .9 * e;
             s > r ? $(i).attr("data-anim", "true") : true;

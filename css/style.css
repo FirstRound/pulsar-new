@@ -990,4 +990,120 @@
   position: relative;
   margin: 40px auto 0 auto; }
 
+.timeline .head-sec-time-line {
+  opacity: 0;
+  -webkit-transform: translateX(-70px);
+          transform: translateX(-70px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .timeline .head-sec-time-line[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
+.timeline .body-sec-time-line {
+  opacity: 0;
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .timeline .body-sec-time-line[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
+.advisors-head.for-padding {
+  opacity: 0;
+  -webkit-transform: translateX(-70px);
+          transform: translateX(-70px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .advisors-head.for-padding[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
+.Community p {
+  opacity: 0;
+  -webkit-transform: translateX(70px);
+          transform: translateX(70px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .Community p[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
+.counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter {
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:before {
+    opacity: 0;
+    -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+    transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(1) {
+    -webkit-transition-delay: .15s,.3s;
+            transition-delay: .15s,.3s; }
+    .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(1):before {
+      -webkit-transition-delay: .65s,.8s;
+              transition-delay: .65s,.8s; }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(2) {
+    -webkit-transition-delay: .25s,.4s;
+            transition-delay: .25s,.4s; }
+    .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(2):before {
+      -webkit-transition-delay: .75s,.9s;
+              transition-delay: .75s,.9s; }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(3) {
+    -webkit-transition-delay: .35s,.5s;
+            transition-delay: .35s,.5s; }
+    .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(3):before {
+      -webkit-transition-delay: .85s,1s;
+              transition-delay: .85s,1s; }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:nth-child(4) {
+    -webkit-transition-delay: .45s,.6s;
+            transition-delay: .45s,.6s; }
+.counter-sec .for-hard-bg-2 .wrapp-forcounter[data-anim=true] .one-counter {
+  opacity: 1; }
+  .counter-sec .for-hard-bg-2 .wrapp-forcounter[data-anim=true] .one-counter:before {
+    opacity: 1; }
+
+.counter-sec .head-counter-sec div h4 {
+  opacity: 0;
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .counter-sec .head-counter-sec div h4[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
+.counter-sec .head-counter-sec div p {
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  -webkit-transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear;
+  transition: transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1), opacity 0.5s linear, -webkit-transform 0.75s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .counter-sec .head-counter-sec div p[data-anim=true] {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none; }
+
 /*# sourceMappingURL=style.css.map */
