@@ -1132,4 +1132,67 @@
       .parteners .flex-partners .one-partner img {
         margin: 0 auto; }
 
+.sec-lvl-5 {
+  padding-top: 105px;
+  padding-bottom: 60px; }
+  .sec-lvl-5 .for-b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .sec-lvl-5 .for-b h4 {
+      font-size: 56px;
+      letter-spacing: 0.4px;
+      border-bottom: 3px solid #000;
+      line-height: 48px;
+      margin-bottom: 50px;
+      font-family: "BebasNeueReg"; }
+  .sec-lvl-5 .list-acceleration .one-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 30px; }
+    .sec-lvl-5 .list-acceleration .one-item .num {
+      width: 50px;
+      height: 50px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      background: #266ad2;
+      border-radius: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-family: "BebasNeueReg";
+      color: #fff;
+      font-size: 34px;
+      letter-spacing: 0.3px;
+      position: relative;
+      top: -7px; }
+    .sec-lvl-5 .list-acceleration .one-item .desc {
+      width: 100%;
+      padding-left: 25px; }
+      .sec-lvl-5 .list-acceleration .one-item .desc .f {
+        font-family: "BebasNeueReg";
+        font-size: 36px;
+        margin-bottom: 7px;
+        letter-spacing: 0.3px;
+        line-height: 36px; }
+      .sec-lvl-5 .list-acceleration .one-item .desc .s {
+        font-family: "BebasNeueReg";
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: -0.2px;
+        color: #8e8e8e; }
+
 /*# sourceMappingURL=style.css.map */

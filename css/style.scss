@@ -1138,3 +1138,60 @@
         }
     }
 }
+.sec-lvl-5 {
+    padding-top: 105px;
+    padding-bottom: 60px;
+    .for-b {
+        display: flex;
+        justify-content: center;
+        h4 {
+            font-size: 56px;
+            letter-spacing: 0.4px;
+            border-bottom: 3px solid #000;
+            line-height: 48px;
+            margin-bottom: 50px;
+            font-family: "BebasNeueReg";
+        }
+    }
+    .list-acceleration {
+        .one-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            .num {
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                background: #266ad2;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "BebasNeueReg";
+                color: #fff;
+                font-size: 34px;
+                letter-spacing: 0.3px;
+                position: relative;
+                top: -7px;
+            }
+            .desc {
+                width: 100%;
+                padding-left: 25px;
+                .f {
+                    font-family: "BebasNeueReg";
+                    font-size: 36px;
+                    margin-bottom: 7px;
+                    letter-spacing: 0.3px;
+                    line-height: 36px;
+                }
+                .s {
+                    font-family: "BebasNeueReg";
+                    font-size: 20px;
+                    line-height: 1.5;
+                    letter-spacing: -0.2px;
+                    color: #8e8e8e;
+                }
+            }
+        }
+    }
+}
