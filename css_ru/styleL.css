@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "BebasNeueReg";
+  src: url("../fonts/9115.otf"); }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/RobotoLight.eot");
+  src: url("../fonts/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/RobotoLight.eot");
+  src: url("../fonts/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url("../fonts/RobotoLight.eot");
+  src: url("../fonts/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+.startups {
+  background-image: url(../img/g.png);
+  background-repeat: no-repeat;
+  background-position: top right 0;
+  padding-top: 140px;
+  position: relative; }
+  .startups:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -220px;
+    width: 50%;
+    height: 399px;
+    background-image: url(../img/1-1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain; }
+  .startups .flex-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .startups .flex-one .block-two {
+      width: 25%;
+      padding: 5px 15px 0px 15px; }
+      .startups .flex-one .block-two .block-one {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; }
+        .startups .flex-one .block-two .block-one img {
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
+      .startups .flex-one .block-two .img-responsive {
+        margin: 5px 40px 0px 0px; }
+      .startups .flex-one .block-two h4 {
+        font-family: "BebasNeueReg";
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #0c142b; }
+      .startups .flex-one .block-two span {
+        font-family: "BebasNeueReg";
+        font-size: 18px;
+        color: #0c142b; }
+      .startups .flex-one .block-two .padding-one {
+        padding-top: 30px; }
+      .startups .flex-one .block-two p {
+        padding-top: 20px;
+        font-size: 16px;
+        color: #a5a5a5;
+        font-family: "Montserrat-Regular"; }
+
+.ACCELERATOR {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  position: relative; }
+  .ACCELERATOR:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -363px;
+    width: 688px;
+    height: 489px;
+    background-image: url(../img/1-3.jpg);
+    background-repeat: no-repeat;
+    background-position: top right; }
+  .ACCELERATOR span {
+    display: block;
+    font-family: "BebasNeueReg";
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 145px; }
+
+.matching .m-w-500 {
+  max-width: 500px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+.matching .padd {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .matching .padd .color-or {
+    color: #fd7400;
+    margin-bottom: 5px;
+    font-family: "BebasNeueReg";
+    position: relative;
+    font-size: 36px; }
+    .matching .padd .color-or:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      display: block;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      width: 70px;
+      height: 3px;
+      background: #fd7400; }
+  .matching .padd p {
+    font-family: "Montserrat-ExtraLight";
+    font-size: 16px;
+    color: #0c142b; }
+
+.Community {
+  padding-top: 190px; }
+  .Community .m-w-825 {
+    max-width: 825px;
+    display: block;
+    margin: 0 auto; }
+  .Community p {
+    font-family: "Montserrat-ExtraLight";
+    font-size: 18px;
+    color: #0c142b;
+    text-align: center; }
+
+.m-w-1280 {
+  max-width: 1280px;
+  margin: 0 auto; }
+  .m-w-1280 .m-w-33 {
+    width: 33%;
+    padding: 7px 45px;
+    outline: none;
+    height: 100%;
+    position: relative; }
+    .m-w-1280 .m-w-33:before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 1px;
+      height: 346px;
+      background: #e1e1e1; }
+    .m-w-1280 .m-w-33:last-child:before {
+      display: none; }
+    .m-w-1280 .m-w-33 h4 {
+      font-family: "BebasNeueReg";
+      font-size: 24px;
+      color: #0c142b;
+      padding-bottom: 35px; }
+    .m-w-1280 .m-w-33 li {
+      font-family: "Montserrat-ExtraLight";
+      color: #0c142b;
+      font-size: 16px; }
+  .m-w-1280 .slick-arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    outline: none;
+    background-image: url(../img/arr-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+    background-size: 22px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer; }
+    .m-w-1280 .slick-arrow.slick-disabled {
+      opacity: 0; }
+    .m-w-1280 .slick-arrow.slick-prev {
+      -webkit-transform-origin: center;
+              transform-origin: center;
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+      left: -50px; }
+    .m-w-1280 .slick-arrow.slick-next {
+      right: -50px; }
+
+.for-butt {
+  margin-bottom: 80px; }
+  .for-butt .for-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .for-butt .for-flex .my-butt {
+      display: block;
+      padding: 4px 110px;
+      border-radius: 30px;
+      background: linear-gradient(45deg, #17307f, #227cc4);
+      font-size: 18px;
+      font-family: "BebasNeueReg";
+      color: #fff;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+      .for-butt .for-flex .my-butt:hover {
+        opacity: 0.8; }
+
+/*# sourceMappingURL=styleL.css.map */
