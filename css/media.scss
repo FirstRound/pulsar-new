@@ -384,7 +384,9 @@
         width: 66.66%;
     }
     
-    
+    .Community{
+        overflow: hidden;
+    }
     
     
 }
@@ -590,8 +592,11 @@
         bottom: 6px;
         right: 5px;
     }
-    .Community{
-        
+    
+     .parteners .flex-partners .one-partner{
+        width: 100%;
+          max-width: 300px;
+        margin: 0 auto;
     }
     
 }

@@ -369,7 +369,10 @@
     display: none; }
 
   .timeline .body-sec-time-line .side-width.left-side {
-    width: 66.66%; } }
+    width: 66.66%; }
+
+  .Community {
+    overflow: hidden; } }
 @media (max-width: 767px) {
   .startups .flex-one .block-two {
     width: 50%; }
@@ -561,6 +564,11 @@
 
   .for-flag {
     bottom: 6px;
-    right: 5px; } }
+    right: 5px; }
+
+  .parteners .flex-partners .one-partner {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=media.css.map */
