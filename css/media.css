@@ -32,8 +32,7 @@
   .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter.counter-1:before {
     top: 8px;
     left: 75%;
-    -webkit-transform: rotate(-29deg);
-            transform: rotate(-29deg);
+    transform: rotate(-29deg);
     width: 218px; }
 
   .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter:before {
@@ -42,15 +41,13 @@
   .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter.counter-2:before {
     top: 106px;
     left: 68%;
-    -webkit-transform: rotate(20deg);
-            transform: rotate(20deg);
+    transform: rotate(20deg);
     width: 190px; }
 
   .counter-sec .for-hard-bg-2 .wrapp-forcounter .one-counter.counter-3:before {
     top: -38px;
     left: 59%;
-    -webkit-transform: rotate(-39deg);
-            transform: rotate(-39deg);
+    transform: rotate(-39deg);
     width: 203px; } }
 @media (max-width: 1700px) {
   .counter-sec .for-bg-new-img:before {
@@ -180,16 +177,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    -webkit-transform: none;
-            transform: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    transform: none;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    flex-wrap: wrap;
+    justify-content: center; }
 
   .counter-sec .head-counter-sec:before {
     display: none; }
@@ -266,8 +257,7 @@
     min-height: inherit; }
 
   .timeline .body-sec-time-line {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    flex-wrap: wrap; }
 
   .timeline-period-small {
     display: block;
@@ -344,16 +334,12 @@
     display: none; }
 
   .for-butt .for-flex {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    justify-content: center; }
 
   .Community {
     padding-top: 75px; }
 
   .footer .for-flex-footer .soc-set-links {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex; }
 
   .footer .for-flex-footer .soc-set-links a {
@@ -395,14 +381,9 @@
   .new-slider-3 .slick-dots {
     margin: 0;
     list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+    justify-content: center;
+    flex-wrap: wrap; }
     .new-slider-3 .slick-dots li {
       padding: 0 3px; }
       .new-slider-3 .slick-dots li button {

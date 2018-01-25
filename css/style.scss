@@ -13,7 +13,7 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-    background-image: url(../img/bg-movie.png);
+    background-image: url(../img/bg-movie.jpg);
     background-size: cover;
     background-position: center;
     &:before {
@@ -657,7 +657,7 @@
             top: 100%;
             width: 517px;
             height: 367px;
-            background-image: url(../img/man-2.png);
+            
             background-repeat: no-repeat;
             background-position: center;
         }
